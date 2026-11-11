@@ -1,0 +1,38 @@
+{
+  "input_records": 5520,
+  "repaired_input_lines": 1276,
+  "output_qa_items": 6466,
+  "excluded_unknown_labels": 67,
+  "skipped_invalid_annotations": 2,
+  "invalid_annotations": [
+    {
+      "line": 626,
+      "label_index": 0,
+      "label": "DRUG USE",
+      "start": 0,
+      "end": 12,
+      "text_length": 10,
+      "reason": "Line 626, label 0: invalid range [0, 12) for text length 10"
+    },
+    {
+      "line": 4849,
+      "label_index": 0,
+      "label": "DRUG",
+      "start": 0,
+      "end": 13,
+      "text_length": 11,
+      "reason": "Line 4849, label 0: invalid range [0, 13) for text length 11"
+    }
+  ],
+  "output_items_by_label": {
+    "ADHERENCE": 217,
+    "DOSAGE": 27,
+    "DRUG": 2004,
+    "DRUG STOP": 80,
+    "DRUG USE": 893,
+    "DURATION": 19,
+    "FREQUENCY": 1578,
+    "ROUTE": 1585,
+    "STRENGTH": 63
+  }
+}
